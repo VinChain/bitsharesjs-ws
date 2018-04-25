@@ -1,5 +1,9 @@
 .npmrc
 npm-debug.log
 node_modules
-cjs
-es
+.idea
+
+# We don't use npm registry so we need compiled files in repo
+# cjs
+# es
+
