@@ -17,6 +17,11 @@ _this = {
         VinChain: {
             core_asset: "VIN",
             address_prefix: "VIN",
+            chain_id: "ffd5043058c6c890c2d3c6c007d46379899139eb064b5a5ab75a7ac60c74e9ce"
+        },
+        VinChainTest: {
+            core_asset: "VIN",
+            address_prefix: "VIN",
             chain_id: "3d883d444747a21e63596d79c67149189161c82c075494ed179261fec2ca708b"
         }
     },
@@ -60,9 +65,9 @@ _this = {
     },
 
     reset: function reset() {
-        _this.core_asset = "CORE";
-        _this.address_prefix = "GPH";
-        ecc_config.address_prefix = "GPH";
+        _this.core_asset = "VIN";
+        _this.address_prefix = "VIN";
+        ecc_config.address_prefix = "VIN";
         _this.expire_in_secs = 15;
         _this.expire_in_secs_proposal = 24 * 60 * 60;
 
