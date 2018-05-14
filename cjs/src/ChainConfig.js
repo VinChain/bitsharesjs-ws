@@ -17,7 +17,7 @@ _this = {
         VinChain: {
             core_asset: "VIN",
             address_prefix: "VIN",
-            chain_id: "ffd5043058c6c890c2d3c6c007d46379899139eb064b5a5ab75a7ac60c74e9ce"
+            chain_id: "199986c14326229cfcb4abfe3b975ed313550dc299ca358cd077f27f2078b739"
         },
         VinChainTest: {
             core_asset: "VIN",
